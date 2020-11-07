@@ -71,7 +71,7 @@ def voc_eval(detpath,
              imagesetfile,
              classname,
              cachedir,
-             ovthresh=0.5,
+             ovthresh=0.8,
              use_07_metric=False,
              use_diff=False):
   """rec, prec, ap = voc_eval(detpath,
@@ -103,11 +103,12 @@ def voc_eval(detpath,
   if not os.path.isdir(cachedir):
     os.mkdir(cachedir)
   cachefile = os.path.join(cachedir, '%s_annots.pkl' % imagesetfile)
+  print(cachefile)
   # read list of images
   with open(imagesetfile, 'r') as f:
     lines = f.readlines()
   imagenames = [x.strip() for x in lines]
-
+  f.close()
   if not os.path.isfile(cachefile):
     # load annotations
     recs = {}
@@ -118,8 +119,9 @@ def voc_eval(detpath,
           i + 1, len(imagenames)))
     # save
     print('Saving cached annotations to {:s}'.format(cachefile))
-    with open(cachefile, 'w') as f:
+    with open(cachefile, 'wb') as f:
       pickle.dump(recs, f)
+    f.close()
   else:
     # load
     with open(cachefile, 'rb') as f:
@@ -152,6 +154,8 @@ def voc_eval(detpath,
   splitlines = [x.strip().split(' ') for x in lines]
   image_ids = [x[0] for x in splitlines]
   confidence = np.array([float(x[1]) for x in splitlines])
+      
+
   BB = np.array([[float(z) for z in x[2:]] for x in splitlines])
 
   nd = len(image_ids)
@@ -205,6 +209,7 @@ def voc_eval(detpath,
   # compute precision recall
   fp = np.cumsum(fp)
   tp = np.cumsum(tp)
+  print("tp:",tp," npos:",npos)
   rec = tp / float(npos)
   # avoid divide by zero in case the first detection matches a difficult
   # ground truth
