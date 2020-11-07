@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin10_obverse_045zoom_0_809.jpg</filename>
+	<path>final_folder/coin10_obverse_045zoom_0_809.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>120</xmin>
+			<ymin>783</ymin>
+			<xmax>508</xmax>
+			<ymax>997</ymax>
+		</bndbox>
+	</object>
+</annotation>

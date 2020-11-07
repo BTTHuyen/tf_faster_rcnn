@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin10_reverse_062zoom_0_8718.jpg</filename>
+	<path>final_folder/coin10_reverse_062zoom_0_8718.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1278</xmin>
+			<ymin>722</ymin>
+			<xmax>1584</xmax>
+			<ymax>1073</ymax>
+		</bndbox>
+	</object>
+</annotation>

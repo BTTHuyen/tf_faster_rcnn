@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>bnh_10000_re_042flip_0_9959.jpg</filename>
+	<path>final_folder/bnh_10000_re_042flip_0_9959.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10,000 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>562</xmin>
+			<ymin>571</ymin>
+			<xmax>1139</xmax>
+			<ymax>1079</ymax>
+		</bndbox>
+	</object>
+</annotation>

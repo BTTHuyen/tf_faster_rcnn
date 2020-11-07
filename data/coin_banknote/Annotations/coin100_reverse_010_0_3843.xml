@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin100_reverse_010_0_3843.jpg</filename>
+	<path>final_folder/coin100_reverse_010_0_3843.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>100 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1009</xmin>
+			<ymin>551</ymin>
+			<xmax>1102</xmax>
+			<ymax>669</ymax>
+		</bndbox>
+	</object>
+</annotation>

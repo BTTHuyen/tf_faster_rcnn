@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>bnh_10000_re_018_0_8035.jpg</filename>
+	<path>final_folder/bnh_10000_re_018_0_8035.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10,000 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>602</xmin>
+			<ymin>464</ymin>
+			<xmax>1070</xmax>
+			<ymax>933</ymax>
+		</bndbox>
+	</object>
+</annotation>

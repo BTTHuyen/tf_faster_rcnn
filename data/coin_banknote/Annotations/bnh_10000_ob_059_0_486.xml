@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>bnh_10000_ob_059_0_486.jpg</filename>
+	<path>final_folder/bnh_10000_ob_059_0_486.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10,000 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>325</xmin>
+			<ymin>117</ymin>
+			<xmax>951</xmax>
+			<ymax>725</ymax>
+		</bndbox>
+	</object>
+</annotation>

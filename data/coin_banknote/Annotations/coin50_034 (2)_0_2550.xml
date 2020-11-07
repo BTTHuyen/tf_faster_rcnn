@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin50_034 (2)_0_2550.jpg</filename>
+	<path>final_folder/coin50_034 (2)_0_2550.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>50 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>764</xmin>
+			<ymin>356</ymin>
+			<xmax>939</xmax>
+			<ymax>615</ymax>
+		</bndbox>
+	</object>
+</annotation>

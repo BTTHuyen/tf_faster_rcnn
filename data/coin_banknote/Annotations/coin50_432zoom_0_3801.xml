@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin50_432zoom_0_3801.jpg</filename>
+	<path>final_folder/coin50_432zoom_0_3801.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>50 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>501</xmin>
+			<ymin>952</ymin>
+			<xmax>665</xmax>
+			<ymax>1079</ymax>
+		</bndbox>
+	</object>
+</annotation>

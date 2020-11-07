@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin1_066 (2)_0_6220.jpg</filename>
+	<path>final_folder/coin1_066 (2)_0_6220.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>1 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>671</xmin>
+			<ymin>572</ymin>
+			<xmax>965</xmax>
+			<ymax>899</ymax>
+		</bndbox>
+	</object>
+</annotation>

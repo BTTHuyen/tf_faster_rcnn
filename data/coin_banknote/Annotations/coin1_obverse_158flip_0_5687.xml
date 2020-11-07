@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin1_obverse_158flip_0_5687.jpg</filename>
+	<path>final_folder/coin1_obverse_158flip_0_5687.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>1 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>828</xmin>
+			<ymin>728</ymin>
+			<xmax>1043</xmax>
+			<ymax>952</ymax>
+		</bndbox>
+	</object>
+</annotation>

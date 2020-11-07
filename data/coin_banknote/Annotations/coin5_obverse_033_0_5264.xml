@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin5_obverse_033_0_5264.jpg</filename>
+	<path>final_folder/coin5_obverse_033_0_5264.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>5 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>584</xmin>
+			<ymin>692</ymin>
+			<xmax>1006</xmax>
+			<ymax>908</ymax>
+		</bndbox>
+	</object>
+</annotation>

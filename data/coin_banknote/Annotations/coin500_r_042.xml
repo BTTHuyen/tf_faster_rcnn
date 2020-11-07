@@ -1,0 +1,26 @@
+<annotation>
+	<folder/>
+	<filename>coin500_r_042.jpg</filename>
+	<path>data/coin500_r_042.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>500 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>969</xmin>
+			<ymin>423</ymin>
+			<xmax>1264</xmax>
+			<ymax>701</ymax>
+		</bndbox>
+	</object>
+</annotation>

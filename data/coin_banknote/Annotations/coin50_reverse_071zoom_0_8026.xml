@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin50_reverse_071zoom_0_8026.jpg</filename>
+	<path>final_folder/coin50_reverse_071zoom_0_8026.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>50 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1089</xmin>
+			<ymin>516</ymin>
+			<xmax>1303</xmax>
+			<ymax>665</ymax>
+		</bndbox>
+	</object>
+</annotation>

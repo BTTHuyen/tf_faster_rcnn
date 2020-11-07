@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin100_obverse_145_0_3143.jpg</filename>
+	<path>final_folder/coin100_obverse_145_0_3143.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>100 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>832</xmin>
+			<ymin>490</ymin>
+			<xmax>1060</xmax>
+			<ymax>628</ymax>
+		</bndbox>
+	</object>
+</annotation>

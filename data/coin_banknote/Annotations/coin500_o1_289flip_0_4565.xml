@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin500_o1_289flip_0_4565.jpg</filename>
+	<path>final_folder/coin500_o1_289flip_0_4565.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>500 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>803</xmin>
+			<ymin>849</ymin>
+			<xmax>1015</xmax>
+			<ymax>1044</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder/>
+	<filename>bnf_10000_re_065.jpg</filename>
+	<path>data/bnf_10000_re_065.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10,000 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>324</xmin>
+			<ymin>528</ymin>
+			<xmax>1914</xmax>
+			<ymax>1073</ymax>
+		</bndbox>
+	</object>
+</annotation>

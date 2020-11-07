@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin50_reverse_044flip_0_2035.jpg</filename>
+	<path>final_folder/coin50_reverse_044flip_0_2035.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>50 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>884</xmin>
+			<ymin>904</ymin>
+			<xmax>1142</xmax>
+			<ymax>1079</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin100_reverse_030flip_0_9525.jpg</filename>
+	<path>final_folder/coin100_reverse_030flip_0_9525.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>100 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1002</xmin>
+			<ymin>484</ymin>
+			<xmax>1234</xmax>
+			<ymax>724</ymax>
+		</bndbox>
+	</object>
+</annotation>

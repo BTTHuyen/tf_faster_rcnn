@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>coin5_obverse_056flip_0_8391.jpg</filename>
+	<path>final_folder/coin5_obverse_056flip_0_8391.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>5 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>850</xmin>
+			<ymin>685</ymin>
+			<xmax>1098</xmax>
+			<ymax>883</ymax>
+		</bndbox>
+	</object>
+</annotation>

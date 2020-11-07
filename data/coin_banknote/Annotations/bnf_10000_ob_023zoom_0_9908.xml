@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_folder</folder>
+	<filename>bnf_10000_ob_023zoom_0_9908.jpg</filename>
+	<path>final_folder/bnf_10000_ob_023zoom_0_9908.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>10,000 Yen</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>435</xmin>
+			<ymin>54</ymin>
+			<xmax>978</xmax>
+			<ymax>1079</ymax>
+		</bndbox>
+	</object>
+</annotation>
