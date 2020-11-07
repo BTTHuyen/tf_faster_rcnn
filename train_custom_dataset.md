@@ -31,7 +31,7 @@ from datasets.coin_banknote import coin_banknote
 
 for split in ['train','test']:
   name = '[dataset]_{}'.format(split)
-  __sets[name] = (lambda split=split: /[dataset/](split))
+  __sets[name] = (lambda split=split: (dataset)(split))
 
 3. /lib/dataset/imdb.py
 Line 116-117: if your dataset start with 0
