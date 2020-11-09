@@ -36,7 +36,7 @@ annopath = os.path.join(
 Line 220: `self._devkit_path,[dataset]/'`
 
 
-2.In  `/lib/dataset/factory.py` add library:
+2. In  `/lib/dataset/factory.py` add library:
 
 `from datasets.coin_banknote import coin_banknote`
 
@@ -47,7 +47,8 @@ for split in ['train','test']:
   __sets[name] = (lambda split=split: (dataset)(split))
 ```
 
-3.In `/lib/dataset/imdb.py`:
+3. In `/lib/dataset/imdb.py`:
+
 ```
 Line 116-117: if your dataset start with 0
 boxes[:, 0] = widths[i] - oldx2
@@ -66,7 +67,7 @@ dataset)
     RATIOS="[0.5,1,2]"
     ;;
 ```
-5.In  `experiments/scripts/test_faster_rcnn.sh`
+5. In  `experiments/scripts/test_faster_rcnn.sh`
 
 ```
 coin_banknote)
